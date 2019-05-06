@@ -24,7 +24,8 @@ export default class App extends Component<Props> {
     super(props);
 
     this.state = {
-      textPredicted: "-"
+      textPredicted: "-",
+      probability: {}
     };
   }
 
@@ -35,14 +36,16 @@ export default class App extends Component<Props> {
   predict = inputText => {
     if (!inputText) return;
     RNCoreML.predict(inputText).then(result => {
+      console.log(result);
       this.setState({
-        textPredicted: result.text
+        textPredicted: result.gender,
+        probability: result.probability
       });
     });
   };
 
   render() {
-    const { textPredicted } = this.state;
+    const { textPredicted, probability } = this.state;
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>Text Classifier Sample with Core ML</Text>
@@ -52,6 +55,8 @@ export default class App extends Component<Props> {
           onChangeText={text => this.predict(text)}
         />
         <Text style={styles.result}>{textPredicted}</Text>
+        <Text style={styles.result}>{probability.M}</Text>
+        <Text style={styles.result}>{probability.F}</Text>
       </View>
     );
   }

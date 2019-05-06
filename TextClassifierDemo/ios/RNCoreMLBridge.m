@@ -13,4 +13,9 @@
 
 RCT_EXTERN_METHOD(predict:(NSString *)source findEventsWithResolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
 
++ (BOOL)requiresMainQueueSetup
+{
+  return YES;
+}
+
 @end

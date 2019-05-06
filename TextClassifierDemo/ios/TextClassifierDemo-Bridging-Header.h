@@ -4,3 +4,4 @@
 
 #import <React/RCTBridgeModule.h>
 #import "TextClassifier.h"
+#import "NamesDT.h"

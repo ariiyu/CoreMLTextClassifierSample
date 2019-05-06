@@ -39,6 +39,7 @@
 		426FDDB5227FEC7B00CFDF7F /* RNCoreML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426FDDB2227FEC7B00CFDF7F /* RNCoreML.swift */; };
 		426FDDB6227FEC7B00CFDF7F /* RNCoreMLBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FDDB4227FEC7B00CFDF7F /* RNCoreMLBridge.m */; };
 		426FDDB8227FEC9D00CFDF7F /* TextClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 426FDDB7227FEC9D00CFDF7F /* TextClassifier.mlmodel */; };
+		42E82A40228013C400151A41 /* NamesDT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 42E82A1A228013C400151A41 /* NamesDT.mlmodel */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
@@ -348,6 +349,7 @@
 		426FDDB2227FEC7B00CFDF7F /* RNCoreML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCoreML.swift; sourceTree = "<group>"; };
 		426FDDB4227FEC7B00CFDF7F /* RNCoreMLBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCoreMLBridge.m; sourceTree = "<group>"; };
 		426FDDB7227FEC9D00CFDF7F /* TextClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TextClassifier.mlmodel; sourceTree = "<group>"; };
+		42E82A1A228013C400151A41 /* NamesDT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NamesDT.mlmodel; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
@@ -495,6 +497,7 @@
 			isa = PBXGroup;
 			children = (
 				426FDDB7227FEC9D00CFDF7F /* TextClassifier.mlmodel */,
+				42E82A1A228013C400151A41 /* NamesDT.mlmodel */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -503,8 +506,8 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 				426FDDB2227FEC7B00CFDF7F /* RNCoreML.swift */,
-				426FDDB4227FEC7B00CFDF7F /* RNCoreMLBridge.m */,
 				426FDD84227FEC7900CFDF7F /* TextClassifierDemo-Bridging-Header.h */,
+				426FDDB4227FEC7B00CFDF7F /* RNCoreMLBridge.m */,
 			);
 			name = TextClassifierDemo;
 			sourceTree = "<group>";
@@ -1139,6 +1142,7 @@
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				426FDDB8227FEC9D00CFDF7F /* TextClassifier.mlmodel in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				42E82A40228013C400151A41 /* NamesDT.mlmodel in Sources */,
 				426FDDB6227FEC7B00CFDF7F /* RNCoreMLBridge.m in Sources */,
 				426FDDB5227FEC7B00CFDF7F /* RNCoreML.swift in Sources */,
 			);
