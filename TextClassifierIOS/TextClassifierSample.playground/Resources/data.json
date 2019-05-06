@@ -1,30 +1,153 @@
 [
     {
-        "text": "The movie was fantastic!",
-        "label": "positive"
+        "text": "写真",
+        "label": "写真・動画"
     }, {
-        "text": "Very boring. Fell asleep.",
-        "label": "negative"
+        "text": "静止画",
+        "label": "写真・動画"
     }, {
-        "text": "It was just OK.",
-        "label": "neutral"
+        "text": "画像",
+        "label": "写真・動画"
     }, {
-        "text": "The app was fantastic!",
-        "label": "positive"
+        "text": "動画",
+        "label": "写真・動画"
     }, {
-        "text": "The app was not fantastic!",
-        "label": "positive"
+        "text": "撮影",
+        "label": "写真・動画"
     }, {
-        "text": "The app was just OK.",
-        "label": "neutral"
+        "text": "カメラ",
+        "label": "写真・動画"
     }, {
-        "text": "The sample was fantastic!",
-        "label": "positive"
+        "text": "録画",
+        "label": "写真・動画"
     }, {
-        "text": "The sample was not fantastic!",
-        "label": "positive"
+        "text": "再生",
+        "label": "写真・動画"
     }, {
-        "text": "The sample was just OK.",
-        "label": "neutral"
+        "text": "視聴",
+        "label": "写真・動画"
+    }, {
+        "text": "光",
+        "label": "写真・動画"
+    }, {
+        "text": "料理",
+        "label": "料理"
+    }, {
+        "text": "レシピ",
+        "label": "料理"
+    }, {
+        "text": "味",
+        "label": "料理"
+    }, {
+        "text": "献立",
+        "label": "料理"
+    }, {
+        "text": "食材",
+        "label": "料理"
+    }, {
+        "text": "食",
+        "label": "料理"
+    }, {
+        "text": "肉",
+        "label": "料理"
+    }, {
+        "text": "魚",
+        "label": "料理"
+    }, {
+        "text": "野菜",
+        "label": "料理"
+    }, {
+        "text": "ドリンク",
+        "label": "料理"
+    }, {
+        "text": "犬",
+        "label": "ペット"
+    }, {
+        "text": "猫",
+        "label": "ペット"
+    }, {
+        "text": "ハムスター",
+        "label": "ペット"
+    }, {
+        "text": "うさぎ",
+        "label": "ペット"
+    }, {
+        "text": "キツネ",
+        "label": "ペット"
+    }, {
+        "text": "ハリネズミ",
+        "label": "ペット"
+    }, {
+        "text": "インコ",
+        "label": "ペット"
+    }, {
+        "text": "オウム",
+        "label": "ペット"
+    }, {
+        "text": "トイプードル",
+        "label": "ペット"
+    }, {
+        "text": "ポメラニアン",
+        "label": "ペット"
+    }, {
+        "text": "ゴルフ",
+        "label": "スポーツ"
+    }, {
+        "text": "マラソン",
+        "label": "スポーツ"
+    }, {
+        "text": "バスケットボール",
+        "label": "スポーツ"
+    }, {
+        "text": "卓球",
+        "label": "スポーツ"
+    }, {
+        "text": "マリンスポーツ",
+        "label": "スポーツ"
+    }, {
+        "text": "スノーボード",
+        "label": "スポーツ"
+    }, {
+        "text": "野球",
+        "label": "スポーツ"
+    }, {
+        "text": "バレーボール",
+        "label": "スポーツ"
+    }, {
+        "text": "ラグビー",
+        "label": "スポーツ"
+    }, {
+        "text": "ダンス",
+        "label": "スポーツ"
+    }, {
+        "text": "楽器",
+        "label": "音楽"
+    }, {
+        "text": "ミュージック",
+        "label": "音楽"
+    }, {
+        "text": "ライブ",
+        "label": "音楽"
+    }, {
+        "text": "歌詞",
+        "label": "音楽"
+    }, {
+        "text": "楽曲",
+        "label": "音楽"
+    }, {
+        "text": "作曲",
+        "label": "音楽"
+    }, {
+        "text": "音",
+        "label": "音楽"
+    }, {
+        "text": "コンサート",
+        "label": "音楽"
+    }, {
+        "text": "録音",
+        "label": "音楽"
+    }, {
+        "text": "DTM",
+        "label": "音楽"
     }
 ]
