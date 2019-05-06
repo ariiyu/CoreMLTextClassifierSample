@@ -30,8 +30,3 @@ let metadata = MLModelMetadata(author: "Yusuke Ariyoshi",
                                version: "1.0")
 let exportPath = playgroundSharedDataDirectory.appendingPathComponent("TextClassifier.mlmodel")
 try classifier.write(to: exportPath, metadata: metadata)
-
-
-// try model
-//let textClassifier = try NLModel(mlModel: TextClassifier().model)
-//textClassifier.predictedLabel(for: "It was the best I've ever seen!")
