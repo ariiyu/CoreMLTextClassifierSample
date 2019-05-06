@@ -1,0 +1,30 @@
+[
+    {
+        "text": "The movie was fantastic!",
+        "label": "positive"
+    }, {
+        "text": "Very boring. Fell asleep.",
+        "label": "negative"
+    }, {
+        "text": "It was just OK.",
+        "label": "neutral"
+    }, {
+        "text": "The app was fantastic!",
+        "label": "positive"
+    }, {
+        "text": "The app was not fantastic!",
+        "label": "positive"
+    }, {
+        "text": "The app was just OK.",
+        "label": "neutral"
+    }, {
+        "text": "The sample was fantastic!",
+        "label": "positive"
+    }, {
+        "text": "The sample was not fantastic!",
+        "label": "positive"
+    }, {
+        "text": "The sample was just OK.",
+        "label": "neutral"
+    }
+]
